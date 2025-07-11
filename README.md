@@ -8,6 +8,7 @@
 git clone https://github.com/Nedbailova/DuckShop.git
 
 cd DuckShop
+
 npm install
 
 # run app
