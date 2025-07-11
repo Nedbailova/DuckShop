@@ -1,0 +1,87 @@
+<header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <img src="/src/components/header/logo/Logo.svg" alt="DuckShop" />
+    </div>
+
+    <nav class="header__links">
+      <a href="#main" class="header__link nav-link header__link--active">Главная</a>
+      <a href="#catalog" class="header__link nav-link link_catalog">Каталог
+        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.5 8L10.5 12L14.5 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+      <a href="#blog" class="header__link nav-link">Блог</a>
+      <a href="#reviews" class="header__link nav-link">Отзывы</a>
+      <a href="#contacts" class="header__link nav-link">Контакты</a>
+    </nav>
+
+    <nav class="header__nav">
+      <div class="header__button-group">
+        <svg class="header__button-icon header__icon-cart" width="40" height="40" viewBox="0 0 40 40" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.3333 19.3333L17.9999 14.6667" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M24.6667 19.3333L22 14.6667" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M13.3333 19.3333H26.6666" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path
+            d="M14.3333 19.3333L15.3999 24.2667C15.4623 24.5724 15.6298 24.8465 15.8734 25.0414C16.1171 25.2363 16.4213 25.3396 16.7333 25.3333H23.2666C23.8666 25.3333 24.4666 24.8667 24.5999 24.2667L25.7333 19.3333"
+            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M18 19.3333L18.6667 25.3333" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M15 22.3333H25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M21.9999 19.3333L21.3333 25.3333" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+        <button class="header__button call-button desktop-only">Заказать обратный звонок</button>
+      </div>
+      <svg class="header__button header__icon_nav" width="42" height="42" viewBox="0 0 42 42" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_4001_200)">
+          <path
+            d="M2 9C2 4.58172 5.58172 1 10 1H32C36.4183 1 40 4.58172 40 9V31C40 35.4183 36.4183 39 32 39H10C5.58172 39 2 35.4183 2 31V9Z"
+            fill="currentColor" />
+          <path
+            d="M10 1.5H32C36.1421 1.5 39.5 4.85786 39.5 9V31C39.5 35.1421 36.1421 38.5 32 38.5H10C5.85786 38.5 2.5 35.1421 2.5 31V9C2.5 4.85786 5.85786 1.5 10 1.5Z"
+            stroke="#FFDD55" />
+          <path d="M15 16H27" stroke="#1F2937" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M15 20H27" stroke="#1F2937" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M15 24H27" stroke="#1F2937" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <defs>
+          <filter id="filter0_d_4001_200" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="1" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4001_200" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4001_200" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+
+      <svg class="header_button_icon icon_close hide-icons" width="40" height="40" viewBox="0 0 40 40" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect x="7" y="7" width="26" height="26" rx="13" fill="white" />
+        <path
+          d="M20 20L23.5356 23.5355M16.4645 23.5355L20 20L16.4645 23.5355ZM23.5356 16.4645L20 20L23.5356 16.4645ZM20 20L16.4645 16.4645L20 20Z"
+          stroke="#B9B9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </nav>
+  </div>
+
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <a href="#main" class="mobile-menu__link nav-link header__link--active">Главная</a>
+      <a href="#catalog" class="mobile-menu__link nav-link">Каталог</a>
+      <a href="#blog" class="mobile-menu__link nav-link">Блог</a>
+      <a href="#reviews" class="mobile-menu__link nav-link">Отзывы</a>
+      <a href="#contacts" class="mobile-menu__link nav-link">Контакты</a>
+      <button class="mobile-menu__button call-button mobile-only">Заказать обратный звонок</button>
+    </div>
+  </div>
+</header>
